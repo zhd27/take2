@@ -1,0 +1,385 @@
+
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+    .navbar-nav .nav-item .nav-link {
+        text-align: center;
+        font-size: 14px;
+        color: white;
+        background-color: rgba(0, 0, 255, .3);
+        border-radius: 5px;
+        margin-bottom: 3px;
+    }
+
+    .navbar-nav .nav-item :hover.nav-link {
+        color: palevioletred;
+    }
+
+    .navbar-nav .nav-item .nav-link.active {
+        color: white;
+        font-weight: bold;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: gray;
+    }
+
+    .navbar-toggler-icon {
+        border-radius: 5px;
+    }
+    .navbar-nav .nav-item .icon{
+        display: none;
+    }
+    .text_content{
+        width: 100%;
+    }
+
+.contents i {
+    font-size: 22.5px;
+    background-color: #82ca9c;
+    padding: 12px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    margin-left: -3px;
+    left: 252px;
+    cursor: pointer;
+    top: 42px;
+    color: brown;
+    }
+
+    .img_position{
+      display:none;
+    }
+
+
+    .text_content h1 {
+    font-size: 44px;
+    }
+    
+    .menu {
+    background: url(../image/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 180px;
+}
+    .text_content {
+
+    color: white;
+    margin-top: 180px;
+    }
+    .text_content p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+        margin-top: 30px
+    }
+    .text_contents{
+        margin-top: 30px;
+    }
+    .text_conte h4 {
+    font-size: 31px;
+    }
+    .text_conte p{
+        text-align: justify;
+    }
+
+     .overlay {
+    padding: 10px 15px
+    
+    }
+    .image_cont.this img {
+    height: 244px;
+    }
+    .header_parts h4 {
+    font-size: 32px;
+    }
+    .text_alls p,.text_all p{
+        text-align: justify;
+    }
+     .car_content h5 {
+    font-size: 35px;
+    }
+    .car {
+    background: url(../image/banner_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    }
+    .carinfo {
+    padding-top: 394px;
+    padding-bottom: 119px;
+    }
+    .colera h4 {
+    font-size: 27px
+    }
+    .buy_part {
+    padding-top: 30px;
+    }
+    .buy_content {
+    padding: 50px 15px
+    }
+    .buy_content span{
+        font-size: 25px;
+    }
+    .footer_content {
+        margin-top: 50px;
+    }
+    .contents p {
+    width: 100%;
+    margin-top: 10px;
+    }
+    .botttom_cont {
+    margin-top: 60px;
+    }
+}
+ 
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+        .img_position img {
+    position: absolute;
+        top: -376px;
+    right: 0px;
+    height: 389px;
+    width: 302px;
+    }
+    .menu {
+    background: url(../image/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 28px;
+    }
+    .text_content {
+    width: 360px;
+        margin-top: 149px;
+    padding: 10px 0px;
+    margin-bottom: 70px;
+    }
+    .text_content h1 {
+    font-size: 52px;
+    }
+    .text_conte h4 {
+        font-size: 40px;
+    }
+    .text_contents {
+    margin-top: 25px
+    }
+    .image_cont h5 {
+    font-size: 40px;
+        padding-top: 50px
+    }
+    .image_cont p {
+    font-size: 16px;
+    margin-top: 28px;
+    margin-bottom: 35px;
+    }
+    
+    .image_cont a {
+    font-size: 16px
+    }
+    .image_cont a {
+    display: block;
+    font-size: 16px;
+    margin-top: 50px;
+    }
+    .overlay {
+    padding: 30px 40px;
+    }
+    .image_cont {
+    height: 375px;
+    }
+    .image_cont.this img {
+    height: 375px;
+    }
+    .fourth p{
+        width: 100%;
+    }
+    .header_parts h4 {
+    font-size: 41px
+    }
+    .text_all h5 {
+    font-size: 20px
+    }
+    .text_all p {
+    font-size: 14px;
+    }
+    .car_content h5 {
+    font-size: 61px
+    }
+        .car {
+    background: url(../image/banner_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    }
+    .carinfo {
+    padding-top: 394px;
+    padding-bottom: 119px;
+    }
+    .car_content p {
+    font-size: 14px;
+    }
+    .colera h4 {
+    font-size: 41px;
+    }
+    .text_alls h5 {
+    font-size: 20px
+    }
+    .text_alls p {
+    font-size: 14px;
+    }
+    .buy_part {
+    padding-top: 30px;
+    }
+    .buy_content p {
+    font-size: 15px;
+    }
+    .buy_content h4 {
+    font-size: 40px;
+    }
+    buy_content h5 {
+    font-size: 14px;
+    }
+    .footer_content h5 {
+    font-size: 25px
+    }
+
+    .contents button i {
+    top: 54px
+    }
+
+    .footer_content {
+    margin-top: 50px;
+    }
+
+    .contents i {
+    font-size: 22.5px;
+    background-color: #82ca9c;
+    padding: 12px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    margin-left: -3px;
+    left: 281px;
+    cursor: pointer;
+    top: 54px;
+    color: brown;
+}
+
+    
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .img_position img {
+    position: absolute;
+    top: -520px;
+    right: 0px;
+    height: 625px;
+    width: 419px;
+    }
+    .menu {
+    padding-top: 30px;
+    padding-bottom: 202px;
+    }
+    .text_contents {
+    margin-top: 135px;
+    }
+    .car_content h5 {
+    font-size: 50px
+    }
+    .car_content p {
+    font-size: 14px;
+    }
+    .car_content a {
+    font-size: 15px;
+    }
+    .carinfo {
+    background: rgba(0,0,0,.1);
+    padding-top: 379px;
+    padding-bottom: 120px;
+    }
+    .buy_content {
+    padding: 20px;
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .img_position img {
+    position: absolute;
+    top: -522px;
+    right: 26px;
+    height: 639px;
+    width: 500px
+    }
+    .menu {
+    padding-top: 30px;
+    padding-bottom: 200px
+    }
+    .text_content h1 {
+    font-size: 62px;
+    }
+    .text_content p {
+    font-size: 14px
+    }
+    .image_cont {
+    height: 280px;
+    }
+    .image_cont.this img {
+    height: 280px;
+    }
+    .fourth p {
+    margin-bottom: 70px;
+    }
+    .image_cont.yess img {
+    height: 280px;
+    }
+    
+    
+}
+@media (min-width: 1200px) and (max-width: 1399.98px){
+    
+    .img_position img {
+    position: absolute;
+    top: -595px;
+    right: 84px;
+    height: 740px;
+
+}
+
+
+}
+@media (min-width: 1400px){
+    .img_position img {
+    position: absolute;
+    top: -595px;
+    right: 202px;
+    height: 740px;
+    }
+    .text_content p {
+    font-size: 15px;
+    }
+    .text_content h1 {
+    font-size: 68px
+    }
+    .footer_content h5 {
+    font-size: 20px
+    }
+    
+
+    .contents button i {
+    position: absolute;
+    margin-left: -3px;
+    left: 282px;
+    top: 48px
+  
+}
+
+    
+    
+}
